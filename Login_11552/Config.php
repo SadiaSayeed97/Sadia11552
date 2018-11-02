@@ -1,3 +1,3 @@
 <?php
-   $db = new mysqli("localhost", "root","" , "SadiaTable");
+   $db = new mysqli("localhost", "sadia","sadia" , "SadiaTable");
 ?>

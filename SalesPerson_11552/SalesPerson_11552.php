@@ -1,7 +1,7 @@
   <?php
 echo "<a href='CreateTable.php' class='btn btn-primary m-r-1em'>Create</a>";
-echo "<a href='/Login_11552/welcome.php' class='btn btn-primary m-r-1em'>Home</a>";
-echo "<a href = '/Login_11552/logout.php' class='btn btn-danger'>Sign Out</a>";
+echo "<a href='../Login_11552/welcome.php' class='btn btn-primary m-r-1em'>Home</a>";
+echo "<a href = '../Login_11552/logout.php' class='btn btn-danger'>Sign Out</a>";
 $action = isset($_GET['action']) ? $_GET['action'] : "";
  
 // if it was redirected from delete.php
@@ -9,8 +9,8 @@ if($action=='deleted'){
     echo "<div class='alert alert-success'>Record was deleted.</div>";
 }
 $servername = "localhost";
-$username = "root";
-$password = "";
+$username = "sadia";
+$password = "sadia";
 $dbname = "SadiaTable";
 
 // Create connection

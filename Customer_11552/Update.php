@@ -16,8 +16,8 @@ $id=isset($_GET['id']) ? $_GET['id'] : die('ERROR: Record ID not found.');
  
 $host = "localhost";
 $db_name = "SadiaTable";
-$username = "root";
-$password = "";
+$username = "sadia";
+$password = "sadia";
   
 try {
     $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);
@@ -91,6 +91,8 @@ if($_POST){
         // Execute the query
         if($stmt->execute()){
             echo "<div class='alert alert-success'>Record was updated.</div>";
+		header('Location: ../Customer_11552/sadiatable.php');
+
         }else{
             echo "<div class='alert alert-danger'>Unable to update record. Please try again.</div>";
         }

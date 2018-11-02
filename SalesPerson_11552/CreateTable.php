@@ -10,8 +10,8 @@
 <?php
 $host = "localhost";
 $db_name = "SadiaTable";
-$username = "root";
-$password = "";
+$username = "sadia";
+$password = "sadia";
   
 try {
     $con = new PDO("mysql:host={$host};dbname={$db_name}", $username, $password);

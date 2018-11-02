@@ -35,10 +35,11 @@ font-size:50px;
 	<table>
 	<tr>
 	<div align="center" style="margin: 20px">
-	<a href='/Customer_11552/sadiatable.php' class='btn btn-primary'>Customer</a>
-	<a href='/SalesPerson_11552/SalesPerson_11552.php' class='btn btn-primary'>Salesperson</a>
-	<a href='/Product_11552/Product_11552.php' class='btn btn-primary'>Product</a>
-	<a href='/User_11552/User_11552.php' class='btn btn-primary'>User</a>
+	<a href='../Customer_11552/sadiatable.php' class='btn btn-primary'>Customer</a>
+	<a href='../SalesPerson_11552/SalesPerson_11552.php' class='btn btn-primary'>Salesperson</a>
+	<a href='../Product_11552/Product_11552.php' class='btn btn-primary'>Product</a>
+	<a href='../User_11552/User_11552.php' class='btn btn-primary'>User</a>
+	<a href='../SalesOrder_11552/table.php' class='btn btn-primary'>Salesorder</a>
 	</div>
 	</tr>
 	<tr>
