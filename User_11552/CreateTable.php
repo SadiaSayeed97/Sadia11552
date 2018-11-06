@@ -38,6 +38,7 @@ if($_POST){
                   
         if($stmt->execute()){
             echo "<div class='alert alert-success'>Record was saved.</div>";
+		header('Location: ../User_11552/User_11552.php');
         }else{
             echo "<div class='alert alert-danger'>Unable to save record.</div>";
         }

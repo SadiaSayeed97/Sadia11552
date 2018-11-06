@@ -85,6 +85,7 @@ if($_POST){
         // Execute the query
         if($stmt->execute()){
             echo "<div class='alert alert-success'>Record was updated.</div>";
+		header('Location: ../SalesPerson_11552/SalesPerson_11552.php');
         }else{
             echo "<div class='alert alert-danger'>Unable to update record. Please try again.</div>";
         }

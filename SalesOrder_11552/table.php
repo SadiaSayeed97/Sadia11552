@@ -6,6 +6,8 @@
            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>  
       </head>  
       <body>  
+	<a href='../Login_11552/welcome.php' class='btn btn-primary m-r-1em'>Home</a>
+	<a href = '../Login_11552/logout.php' class='btn btn-danger'>Sign Out</a>
            <div class="container">  
                 <div class="table-responsive">
 		     <div class="page-header">  

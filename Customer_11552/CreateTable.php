@@ -44,6 +44,7 @@ if($_POST){
                   
         if($stmt->execute()){
             echo "<div class='alert alert-success'>Record was saved.</div>";
+		header('Location: ../Customer_11552/sadiatable.php');
         }else{
             echo "<div class='alert alert-danger'>Unable to save record.</div>";
         }

@@ -85,7 +85,7 @@ if($_POST){
         $stmt->bindParam(':ContactNumber', $contactno);
 	$stmt->bindParam(':Address', $address);
 	$stmt->bindParam(':Area', $area);
-	$stmt->bindParam(':GeographicalCoordinates', $geographicalcoordinates);
+	$stmt->bindParam(':GeographicalCoordinates', $coordinates);
         $stmt->bindParam(':id', $id);
          
         // Execute the query
